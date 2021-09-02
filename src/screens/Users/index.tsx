@@ -22,7 +22,7 @@ const UsersContainer = () => {
   	}, []);
 
 	return <Container>
-		<Box pt={5}>
+		<Box py={3}>
 			<Typography variant="h5" component="h5">User List</Typography>
 		</Box>
 		<UserList users={users} />

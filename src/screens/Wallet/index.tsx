@@ -39,13 +39,13 @@ const WalletContainer = () => {
 	}, [params]);
 
 	return <Container>
-		<Box pt={5}>
+		<Box py={3}>
 			<Grid container>
 				<Grid item>
 					<Button variant="contained" onClick={() => history.goBack()}>BACK</Button>					
 				</Grid>
 				<Grid item xs>
-					<Typography variant="h5" component="h5">User List</Typography>
+					<Typography variant="h5" component="h5">Account Detail</Typography>
 				</Grid>
 				<Grid item />
 			</Grid>
